@@ -17,18 +17,17 @@ Este projeto é uma aplicação CRUD (Create, Read, Update, Delete) simples para
 Este projeto utiliza as seguintes tecnologias:
 - Java
 - Spring Boot
-- Spring Data JPA
-- Spring Web
-- Hibernate
 - Maven
 
 ## Instruções de Configuração
 
 Para configurar e executar este projeto localmente, siga estas etapas:
 1. Certifique-se de ter o Java JDK e o Maven instalados em seu sistema.
-2. Clone este repositório para o seu ambiente local.
-3. Configure o arquivo `application.properties` com as configurações do banco de dados conforme necessário.
-4. Execute o aplicativo Spring Boot.
+2. Instale o PostgreSQL em seu sistema, se ainda não estiver instalado.
+3. Crie um banco de dados no PostgreSQL com o nome "food".
+4. Clone este repositório para o seu ambiente local.
+5. Configure o arquivo `application.properties` com as configurações do banco de dados conforme necessário.
+6. Execute o aplicativo Spring Boot.
 
 ## Endpoints
 
